@@ -5,7 +5,7 @@ import Achievement from "./screens/achievement";
 
 import Home from "./screens";
 
-export const AchievementBlueprintNavigator = createStackNavigator(
+export default AchievementBlueprintNavigator = createStackNavigator(
   {
     Home: { screen: Home },
     Achievement: { screen: Achievement },
